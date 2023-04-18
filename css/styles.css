@@ -1,5 +1,5 @@
 body {
-	background-color: #31d0aa;
+	background-color:#8e8f99;
 }
 
 :root {
@@ -14,80 +14,17 @@ body {
 	--color-navy-blue-modal: #2e2f42;
 	--color-grey: #2e2f42;
 	--color-white: #ffffff;
-	--color-dairy: #fcfcfc;
-}
-
-.logo {
-
+	--color-dairy: #fcfcfc
 }
 
  /*
-========= header style ========= 
+========= base style ========= 
 */
-
-.header {}
-.header-nav{}
-.header-nav-list {}
-.header-nav-item {}
-.header-nav-link {}
-.header-address {}
-.header-address-list {}
-.header-address-item {}
-.header-address-link {}
-
-/*
-========= main style ========= 
-*/
-
-.main {}
-.main-section {}
-.main-section-filter {}
-.main-filter-btn {}
-.main-card-link {}
-.main-card-title {}
-.main-card-text {}
-
-/*
-========= footer style ========= 
-*/
-
-.footer {}
-.footer-nav {}
-.footer-nav-text {}
-
-
-
-.text-style-header-1 {
-	font-size: 56px;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 60px;
-	letter-spacing: 0.02em;
+.logo {}
+.link {
 	text-decoration: none;
-	text-transform: none;
 }
-.text-style-header-2 {
-	font-size: 36px;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 40px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: capitalize;
-}
-.text-style-header-3 {
-	font-size: 20px;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
-.text-style-body {
+.body {
 	font-size: 16px;
 	font-family: "Roboto";
 	font-weight: 400;
@@ -97,7 +34,50 @@ body {
 	text-decoration: none;
 	text-transform: none;
 }
-.text-style-body-medium {
+
+.main-title {
+	font-size: 56px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.section-title{
+	font-size: 36px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.section-title-light{
+	color: ;
+	font-size: 36px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.sub-title {
+	font-size: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.desc {
 	font-size: 16px;
 	font-family: "Roboto";
 	font-weight: 500;
@@ -136,3 +116,38 @@ body {
 	text-decoration: underline;
 	text-transform: none;
 }
+
+ /*
+========= header style ========= 
+*/
+
+.header {}
+.header-nav{}
+.header-nav-list {}
+.header-nav-item {}
+.header-nav-link {}
+.header-address {}
+.header-address-list {}
+.header-address-item {}
+.header-address-link {}
+
+/*
+========= main style ========= 
+*/
+
+.main {}
+.main-section {}
+.main-section-filter {}
+.main-filter-btn {}
+.main-card-link {}
+.main-card-title {}
+.main-card-text {}
+
+/*
+========= footer style ========= 
+*/
+
+.footer {}
+.footer-nav {}
+.footer-nav-text {}
+
