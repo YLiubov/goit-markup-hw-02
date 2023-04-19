@@ -1,7 +1,7 @@
 :root {
 	/*  fonts  */
-	--primary-font: 'Roboto Medium', sans-serif;
-	--primary-font: 'Raleway ExtraBold', sans-serif;
+	--primary-font: 'Roboto', sans-serif;
+	--secondy-font: 'Raleway', sans-serif;
 	/*  color  */
 	--color-iris: #4d5ae5;
 	--color-ocean: #404bbf;
@@ -21,7 +21,8 @@
 /*
 ========= base style ========= 
 */
-.logo {
+.logo {	
+
 }
 .link {
 	text-decoration: none;
@@ -37,6 +38,7 @@ body {
 	text-decoration: none;
 	text-transform: none;
 	color: var(--color-slate);
+	background-color: #FFFFFF;
 }
 
 /*
