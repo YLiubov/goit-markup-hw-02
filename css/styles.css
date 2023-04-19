@@ -21,9 +21,9 @@
 /*
 ========= base style ========= 
 */
-.logo {	
-
-}
+li {
+	list-style-type: none;
+  }
 .link {
 	text-decoration: none;
 }
@@ -40,6 +40,96 @@ body {
 	color: var(--color-slate);
 	background-color: #FFFFFF;
 }
+
+/*
+========= logo style ========= 
+*/
+
+.logo {	
+	font-family: var(--secondy-font);
+	font family: Raleway;
+	font-size: 18px;
+	Font style: ExtraBold;
+	Line height: 21px;
+	Line height: 99%;
+	Align: Left;
+	Vertical align: Center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+}
+span {
+	color: #2e2f42;
+}
+
+/*
+========= header style ========= 
+*/
+
+.header {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+	text-decoration: none;
+	list-style: none;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+	color: #2e2f42;
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link {
+	text-decoration: none;
+	list-style: none;
+	font-style: normal;
+	color: #434455;
+}
+
+/*
+========= main style ========= 
+*/
+
+.main {
+}
+.main-section {
+}
+.main-section-filter {
+}
+.main-filter-btn {
+}
+.main-card-link {
+}
+.main-card-title {
+}
+.main-card-text {
+}
+
+/*
+========= footer style ========= 
+*/
+
+.footer {
+}
+.footer-nav {
+}
+.footer-nav-text {
+}
+
 
 /*
 ========= others style ========= 
@@ -128,55 +218,3 @@ body {
 	text-transform: none;
 }
 
-/*
-========= header style ========= 
-*/
-
-.header {
-}
-.header-nav {
-}
-.header-nav-list {
-}
-.header-nav-item {
-}
-.header-nav-link {
-}
-.header-address {
-}
-.header-address-list {
-}
-.header-address-item {
-}
-.header-address-link {
-}
-
-/*
-========= main style ========= 
-*/
-
-.main {
-}
-.main-section {
-}
-.main-section-filter {
-}
-.main-filter-btn {
-}
-.main-card-link {
-}
-.main-card-title {
-}
-.main-card-text {
-}
-
-/*
-========= footer style ========= 
-*/
-
-.footer {
-}
-.footer-nav {
-}
-.footer-nav-text {
-}
