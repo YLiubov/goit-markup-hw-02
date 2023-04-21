@@ -185,3 +185,41 @@ color: var(--color-slate);
 	line-height: 1.5;
 	color: var(--color-cloud);
 }
+
+/*
+========= portfolio style ========= 
+*/
+
+.portfolio-button {
+	font-family: var(--primary-font);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: var(--color-iris);
+	cursor: pointer;
+	background-color: var(--color-cloud);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+	background-color: var(--color-ocean);
+	color: var(--color-white);
+}
+
+/*
+========= portfolio card ========= 
+*/
+
+.main-card-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-grey);
+}
+.main-card-text {
+	line-height: 1.5;
+	color: var(--color-slate);
+}
