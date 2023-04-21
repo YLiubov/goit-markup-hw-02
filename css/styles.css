@@ -22,7 +22,7 @@
 ========= base style ========= 
 */
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: var(--primary-font);
 	font-size: 16px;
 	letter-spacing: 0.02em;
 	color: var(--color-slate);
@@ -81,7 +81,29 @@ body {
 	color: var(--color-ocean);
 }
 
-
 /*
-========= other style ========= 
+========= hero style ========= 
 */
+.hero {
+	background-color: var(--color-navy-blue);
+}
+.hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	color: var(--color-white);
+}
+.hero-button {
+	font-family: var(--primary-font);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	background-color: var(--color-iris);
+	color:var(--color-white);
+	}
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--color-ocean);
+}
