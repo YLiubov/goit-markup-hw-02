@@ -169,3 +169,19 @@ color: var(--color-slate);
 .team-item {
 	background-color: var(--color-white);
 }
+
+/*
+========= footer style ========= 
+*/
+
+
+.footer {
+	background-color: var(--color-navy-blue);
+}
+.logo-footer {
+	color: var(--color-cloud);
+}
+.footer-desc {
+	line-height: 1.5;
+	color: var(--color-cloud);
+}
