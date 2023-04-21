@@ -137,3 +137,35 @@ body {
 	text-transform: capitalize;
 	color: var(--color-navy-blue-modal);
 }
+
+/*
+========= team style ========= 
+*/
+
+.team {
+	background-color: var(--color-cloud);
+}
+.team-title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-grey);
+}
+.team-sub-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-grey);
+	}
+.team-desc {
+line-height: 1.5;
+text-align: center;
+color: var(--color-slate);
+}
+.team-item {
+	background-color: var(--color-white);
+}
